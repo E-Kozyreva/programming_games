@@ -12,7 +12,7 @@ char restart_game(){
 	cout << "Your answer: ";
 	cin >> user_answer;
 
-	switch (user_answer) {
+	switch (user_answer){
 	case 1:
 		cout << endl;
 		return main();

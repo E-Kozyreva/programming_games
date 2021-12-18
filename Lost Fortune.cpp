@@ -6,8 +6,8 @@ using std::endl;
 using std::string;
 
 
-int game(int GOLD_PIECES, int adventurers, int killed, int survivors, string leader)
-{
+int game(int GOLD_PIECES, int adventurers, int killed, int survivors, string leader){
+	
 	cout << "A brave group of " << adventurers << " set out on a quest ";
 	cout << "-- in search of the lost treasure of the Ancient Dwarves. ";
 	cout << "The group was led by that legendary rogue - " << leader << ".\n" << endl;
@@ -27,8 +27,8 @@ int game(int GOLD_PIECES, int adventurers, int killed, int survivors, string lea
 }
 
 
-int main()
-{
+int main(){
+	
 	const int GOLD_PIECES = 900;
 	int adventurers, killed, survivors;
 

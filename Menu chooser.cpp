@@ -2,11 +2,11 @@
 using namespace std;
 
 
-int levels()
-{
+int levels(){
+	
 	int user_choice;
   
-	cout << "Difficilty levels: " << endl;
+	cout << "Difficulty levels: " << endl;
 	cout << "1. Easy." << endl;
 	cout << "2. Normal." << endl;
 	cout << "3. Hard." << endl;
@@ -17,8 +17,8 @@ int levels()
 }
 
 
-int main()
-{
+int main(){
+	
 	int choice;
 	choice = levels();
 

@@ -7,9 +7,9 @@ int main(){
 	const int ROWS = 3;
 	const int COLUMS = 3;
 	char board[ROWS][COLUMS] = {
-								             {'O', 'X', 'O'},
-							             	 {' ', 'X', 'X'},
-								             {'X', 'O', 'O'},
+				                     {'O', 'X', 'O'},
+				                     {' ', 'X', 'X'},
+				                     {'X', 'O', 'O'},
 	                           }; 
   
 	cout << "Here's the tic-tac-toe board:" << endl;
